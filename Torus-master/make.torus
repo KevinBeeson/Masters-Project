@@ -208,52 +208,55 @@ MAIN_LIBS:	Library TorFit GalPot Other
 #
 # executables: standard version
 #
-testfalPot:	$(EXE)testfalPot.cc MAIN_LIBS
+RadialMigration:	$(EXE)RadialMigration.cc MAIN_LIBS
 		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-testMultiPot:	$(EXE)testMultiPot.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-testIsochronePot:	$(EXE)testIsochronePot.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-GiveListProps:	$(EXE)GiveListProps.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-AUTOTORUS:	$(EXE)AUTOTORUS.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-AUTOTORI:	$(EXE)AUTOTORI.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-READLIST:	$(EXE)READLIST.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Choose_any_df:	$(EXE)Choose_any_df.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Create_DF_tori:	$(EXE)Create_DF_tori.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Sample_list_limits:	$(EXE)Sample_list_limits.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Orbit_basic:	$(EXE)Orbit_basic.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Coord_converter:	$(EXE)Coord_converter.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-Add_Uncert:	$(EXE)Add_Uncert.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-CompareTorusIntegrated:	$(EXE)CompareTorusIntegrated.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#testfalPot:	$(EXE)testfalPot.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#testMultiPot:	$(EXE)testMultiPot.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#testIsochronePot:	$(EXE)testIsochronePot.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#GiveListProps:	$(EXE)GiveListProps.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#AUTOTORUS:	$(EXE)AUTOTORUS.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#AUTOTORI:	$(EXE)AUTOTORI.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#READLIST:	$(EXE)READLIST.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Choose_any_df:	$(EXE)Choose_any_df.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Create_DF_tori:	$(EXE)Create_DF_tori.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Sample_list_limits:	$(EXE)Sample_list_limits.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Orbit_basic:	$(EXE)Orbit_basic.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Coord_converter:	$(EXE)Coord_converter.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#Add_Uncert:	$(EXE)Add_Uncert.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#CompareTorusIntegrated:	$(EXE)CompareTorusIntegrated.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
-CompareTorusIntegrated_SOS:	$(EXE)CompareTorusIntegrated_SOS.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-SmoothStreamMaker:	$(EXE)SmoothStreamMaker.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
-GridAndGrid:	$(EXE)GridAndGrid.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#CompareTorusIntegrated_SOS:	$(EXE)CompareTorusIntegrated_SOS.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#SmoothStreamMaker:	$(EXE)SmoothStreamMaker.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#GridAndGrid:	$(EXE)GridAndGrid.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+
 #GridAndGridtest:	$(EXE)GridAndGridtest.cc MAIN_LIBS $(OBJ)PassMyGrids.o
 #		$(CPP) $(MFLAGS) $(OBJ)PassMyGrids.o $(EXE)$@.cc $(LDFLAGS)
 
 #RalphTest:	$(EXE)RalphTest.cc MAIN_LIBS $(OBJ)RalphTestGrid.o
 #		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
-TestBed:	$(EXE)TestBed.cc MAIN_LIBS $(OBJ)RalphTestGrid.o
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#TestBed:	$(EXE)TestBed.cc MAIN_LIBS $(OBJ)RalphTestGrid.o
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
-DensProfForRS:	$(EXE)DensProfForRS.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#DensProfForRS:	$(EXE)DensProfForRS.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
 #Shells:	$(EXE)Shells.cc MAIN_LIBS
 #		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
@@ -261,8 +264,8 @@ DensProfForRS:	$(EXE)DensProfForRS.cc MAIN_LIBS
 #SimpleJR:	$(EXE)SimpleJR.cc MAIN_LIBS
 #		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
-MakeAStream_J:	$(EXE)MakeAStream_J.cc MAIN_LIBS
-		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
+#MakeAStream_J:	$(EXE)MakeAStream_J.cc MAIN_LIBS
+#		$(CPP) $(MFLAGS) $(EXE)$@.cc $(LDFLAGS)
 
 
 # Added for resTorus
@@ -270,8 +273,9 @@ drive:	$(EXE)drive.cc MAIN_LIBS $(OBJ)pstuff.o $(OBJ)getclosed.o
 	$(CPP) $(MFLAGS) -Isrc/resTorusExample/ $(EXE)$@.cc $(OBJ)pstuff.o $(OBJ)getclosed.o $(LDFLAGS)
 
 
-mains: Library TorFit GalPot Other testfalPot GiveListProps AUTOTORUS \
-       AUTOTORI READLIST Choose_any_df Create_DF_tori \
-       Sample_list_limits Orbit_basic Coord_converter Add_Uncert \
-       SmoothStreamMaker GridAndGrid CompareTorusIntegrated \
-       CompareTorusIntegrated_SOS testMultiPot  MakeAStream_J #drive
+mains: RadialMigration  \
+				Library TorFit GalPot Other GiveListProps AUTOTORUS\
+#       AUTOTORI READLIST Choose_any_df Create_DF_tori  testfalPot\
+#       Sample_list_limits Orbit_basic Coord_converter Add_Uncert \
+#       SmoothStreamMaker GridAndGrid CompareTorusIntegrated \
+#       CompareTorusIntegrated_SOS testMultiPot  MakeAStream_J #drive

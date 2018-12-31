@@ -27,7 +27,7 @@ int main(int argc,char *argv[])
     ifstream file;
     int    iso=1;
     Frequencies KNO;
-    double R=8.,z=0.007,r,dr,dz,G,ro,rho0,P,P1,P2,dPdR,dPdR2,dPdz,dPdz2,q;
+    double R=8.,z=0,r,dr,dz,G,ro,rho0,P,P1,P2,dPdR,dPdR2,dPdz,dPdz2,q;
     if(argc !=2) {
       cerr << "This test needs an input potential, e.g. pot/DB97Mod1.Tpot\n";
       exit(1);
